@@ -5,7 +5,7 @@
         </div>
         <div class="col-span-3 py-8 px-10">
             <h1 class="text-xl font-semibold">
-                Welcome to the MHOC Single Sign On Service
+                Sign in with Reddit
             </h1>
             <p class="py-3">
                 Applications that wish to use your status on MHOC such as speakership permissions will direct you here to authenticate.
