@@ -4,17 +4,15 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateRedditAccountsTable extends Migration
+class CreateAccountsTable extends Migration
 {
     public function up()
     {
-        Schema::create('reddit_accounts', function (Blueprint $table) {
+        Schema::create('accounts', function (Blueprint $table) {
             $table->id();
 
             $table->string('username');
             $table->boolean('administrator')->default(false);
-            $table->boolean('speakership')->default(false);
-            $table->boolean('moderator')->default(false);
 
             $table->rememberToken();
             $table->text('access_token')->nullable();
@@ -27,6 +25,6 @@ class CreateRedditAccountsTable extends Migration
 
     public function down()
     {
-        Schema::dropIfExists('reddit_accounts');
+        Schema::dropIfExists('accounts');
     }
 }

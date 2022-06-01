@@ -7,7 +7,11 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
 
-class RedditAccount extends Authenticatable
+class Account extends Authenticatable
 {
     use HasFactory, Notifiable, HasApiTokens;
+
+    protected $fillable = [
+        'username', 'administrator'
+    ];
 }

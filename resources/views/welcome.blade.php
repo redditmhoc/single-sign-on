@@ -8,10 +8,10 @@
                 Welcome to the MHOC Single Sign On Service
             </h1>
             <p class="py-3">
-                Applications that wish to use your status on MHOC such as speakership permissions will direct you here to authenticate.
+                Applications that wish to use your status on MHOC  will direct you here to authenticate.
             </p>
             <p class="py-3">
-                If you wish to use this service, please contact the MHOC Web Team.
+                If you wish to use this service, please contact the MHOC Web Services Team.
             </p>
         </div>
     </div>
